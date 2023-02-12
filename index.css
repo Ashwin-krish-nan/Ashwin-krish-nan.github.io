@@ -322,13 +322,13 @@ img {
 }
 
 .work_container {
-  row-gap: 2rem;border: 1px solid red;
-    
+  row-gap: 2rem;/* border: 1px solid red;
+     */
     grid-template-columns: repeat(1, 1fr);
 }
 .project-work{
-  border: 1px solid blue;
-  height: 100%;
+/*   border: 1px solid blue; */
+/*   height: 100%; */
 }
 .work_img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
@@ -515,15 +515,15 @@ width: 100%;
       } */
 
       .project-desc {
-  text-align: center;
+  text-align: justify;
   padding-bottom: 1em;
-  padding-top: 1em;
+  padding-top: 4em;
 }
 
 .github-logo, .another-website-logo {
   height: 3em;
   margin-right: 1em;
-  float: left;
+  float: left;/* border: 1px solid green; */
 }
 
 .another-website-logo {
