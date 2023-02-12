@@ -11,7 +11,7 @@
 :root {
   --first-color: #f45240;
   --second-color: #0e2431;
-  --gardient-color: linear-gradient(to right, #5001fb, #8e0af3);
+  --gardient-color: linear-gradient(to right, #0d3b66, #3f3f3f);
 }
 
 /* FONT STYLE */
@@ -289,65 +289,30 @@ img {
 
 /* SKILLS */
 .skills_container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
   row-gap: 2rem;
   text-align: center;
-}
-
-.skills_subtitle {
-  margin-bottom: var(--mb-2);
-}
-
-.skills_text {
-  margin-bottom: var(--mb-4);
+  /* border: 1px solid black; */
 }
 
 .skills_data {
   display: flex;
-  justify-content: space-between;
+  justify-content: center;
   align-items: center;
   position: relative;
   font-weight: var(--font-semi);
   padding: 0.5rem 1rem;
   margin-bottom: var(--mb-4);
   border-radius: 0.5rem;
-  box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
-}
-
-.skill_icon {
-  font-size: 2rem;
-  margin-right: var(--mb-2);
-  color: var(--first-color);
+  /* box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15); */
+  /* border: 1px solid red; */
+  flex-direction: column;
 }
 
 .skills_name {
-  display: flex;
-  align-items: center;
-}
-
-.skill_bar {
-  position: absolute;
-  left: 0;
-  bottom: 0;
-  background-color: var(--first-color);
-  height: 0.25rem;
-  border-radius: 0.5rem;
-  z-index: var(--z-back);
-}
-
-.skill_html {
-  width: 95%;
-}
-
-.skill_css {
-  width: 85%;
-}
-
-.skill_js {
-  width: 75%;
-}
-
-.skill_ui {
-  width: 85%;
+  margin-top: 1rem;
 }
 
 /* WORK */
@@ -357,21 +322,28 @@ img {
 }
 
 .work_container {
-  row-gap: 2rem;
+  row-gap: 2rem;border: 1px solid red;
+    
+    grid-template-columns: repeat(1, 1fr);
 }
-
+.project-work{
+  border: 1px solid blue;
+  height: 100%;
+}
 .work_img {
   box-shadow: 0 4px 25px rgba(14, 36, 49, 0.15);
   border-radius: 0.5rem;
+  width: 100%;
+  height: 30%;
   overflow: hidden;
 }
 
-.work_img img {
+.project-work img {
   transition: 1s;
   cursor: pointer;
 }
 
-.work_img img:hover {
+.project-work img:hover {
   transform: scale(1.1);
 }
 
@@ -523,4 +495,55 @@ img {
   .home_img {
     right: 10%;
   }
+}
+
+
+
+/* flipper */
+.video-container {
+display: none;
+width: 100%;
+}
+/* .links {
+        display: flex;
+        justify-content: space-between;
+        margin-top: 10px;
+      }
+      .links a {
+        text-decoration: none;
+        color: #000;
+      } */
+
+      .project-desc {
+  text-align: center;
+  padding-bottom: 1em;
+  padding-top: 1em;
+}
+
+.github-logo, .another-website-logo {
+  height: 3em;
+  margin-right: 1em;
+  float: left;
+}
+
+.another-website-logo {
+  float: right;
+  margin-right: 0;
+  margin-left: 1em;
+}
+
+
+.github-calendar {
+  text-align: center;
+}
+
+.calendar-container {
+  padding: 1rem;
+}
+
+iframe {
+  width: 80%;
+  height: 500px;
+  max-width: 1000px;
+  border: none;
 }
