@@ -17,12 +17,12 @@
   <body>
     <!-- Header Section -->
     <header class="header">
-      <nav  class="nav bd_grid" >
+      <nav id="nav-menu" class="nav bd_grid">
         <div>
           <a href="#" class="nav_logo">CodeWithAshwin</a>
         </div>
 
-        <div id="nav-menu" id="nav_menu"  class="nav_menu" >
+        <div id="nav_menu"  class="nav_menu" >
           <ul class="nav_list">
             <li class="nav_items">
               <a href="#home" class="nav-link home" class="nav_link active">Home</a>
@@ -34,14 +34,14 @@
               <a href="#skills" class="nav-link skills" class="nav_link active">Skills</a>
             </li>
             <li class="nav_items">
-              <a href="#work"  class="nav-link projects" class="nav_link active">Projects</a>
+              <a href="#work"   class="nav-link projects" class="nav_link active">Projects</a>
             </li>
-<!--             <li class="nav_items">
+            <li class="nav_items">
               <a href="#contact" class="nav-link contact" class="nav_link active">Contact</a>
-            </li> -->
-             <li class="nav_items">
-              <a href="#contact" class="nav-link contact" class="nav_link active"><button class="control_button button"> Contact</button></a>
             </li>
+             <!-- <li class="nav_items">
+              <a href="#contact" class="nav-link contact" class="nav_link active"><button class="control_button button"> Contact</button></a>
+            </li> -->
           </ul>
         </div>
 
@@ -55,11 +55,11 @@
       <!-- HOME SECTION -->
       <section class="home bd_grid" id="home">
         <div class="home_data" data-aos="fade-down">
-          <h1 class="home_title">
+          <h1 class="home_title" id="user-detail-name">
             Hi, <br />I'm <span class="home_title-color">Ashwin </span
             ><br />Full Stack Web Dev
           </h1>
-          <a href="#contact" class="button"> Resume</a>
+          <a href="#contact" class="button" class="nav-link resume"> Resume</a>
         </div>
 
         <div class="home_social">
@@ -379,7 +379,7 @@
             >
               I'm Ashwin 
             </h2>
-            <p class="about_text" data-aos="fade-down" data-aos-delay="450">
+            <p class="about_text" id="#user-detail-intro" data-aos="fade-down" data-aos-delay="450">
             a full-stack developer specialized in Node.js, Express, MongoDB, HTML, CSS, JavaScript, and GitHub. I recently completed a bootcamp where I developed my skills and created several successful projects. I have a passion for building web applications and am skilled in creating efficient back-end systems and visually appealing user interfaces. I understand the importance of version control and collaboration and have experience using GitHub. I am eager to apply my skills to real-world projects and make a positive impact in the industry with my strong portfolio.
             </p>
           </div>
@@ -453,7 +453,7 @@
       </section>
 
       <!-- WORK SECTION -->
-  <section class="work section" id="work">
+  <section class="work section" id="work" id="projects">
         <h2 class="section-title" data-aos="fade-down">Work</h2>
 
         <div
