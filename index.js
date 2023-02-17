@@ -99,3 +99,17 @@ fetch(`https://api.github.com/users/${userName}/events/public?access_token=${acc
       `;
     });
   }); */
+document.getElementById("resume-link-1").onclick = ()=>{
+  window.open("https://drive.google.com/file/d/1DjGlyKIM4fFuMXlukrDGKMRSRo3JQc3G/view?usp=sharing",`_blank`)
+}
+document.getElementById("resume-link-2").onclick = ()=>{
+  window.open("https://drive.google.com/file/d/1DjGlyKIM4fFuMXlukrDGKMRSRo3JQc3G/view?usp=sharing",`_blank`)
+}
+
+
+
+  GitHubCalendar(".calendar", "Ashwin-krish-nan", {
+  responsive: true,
+  global_stats: false,
+  tooltips: true,
+});

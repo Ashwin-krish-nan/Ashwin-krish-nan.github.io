@@ -547,3 +547,48 @@ iframe {
   max-width: 1000px;
   border: none;
 }
+
+/*---------------- GITHUB --------------*/
+#stats>div{
+  width: 60%;
+  margin: auto;
+  display: flex;
+}
+#stats>div>img{
+  height: 100%;
+}
+#stats img{
+  width: 52%;
+  transition:transform .2s;
+  margin-left: 20%;
+}
+#statsimg>img{
+width: 85%;
+margin-left: 5%;
+}
+#stats img:hover{
+  transform: scale(1.01);
+}
+
+.calendar{
+  width: 90%;
+  padding: 1%;
+}
+
+#calendar h2{
+  margin: 35px 0 20px 0;
+}
+
+@media only screen and (max-width: 900px){
+  #stats>div{
+    flex-direction: column;
+    }
+
+  #stats>div>img{
+    margin-left: 23%;
+    margin-bottom: 3%;
+  }
+  #statsimg>img{
+    margin-left: 17%;
+  }
+}
