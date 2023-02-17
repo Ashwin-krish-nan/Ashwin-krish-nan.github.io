@@ -7,6 +7,7 @@
     <title>Ashwin - Full Stack Web Developer</title>
 <link rel="shortcut icon" href="./fav/favicon.ico" type="image/x-icon" />
     <link rel="stylesheet" href="./index.css" />
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/5.15.3/css/all.min.css" integrity="sha512-ewoVJ8Wx+e9YLpDduPBhL5az5ZkEceM7QHwMHaPNgslLCEJUGO/yOzB0p/g5eCv5h5BYWmBA2OetP/v+yhpU2Q==" crossorigin="anonymous" referrerpolicy="no-referrer" />
     <link
       rel="stylesheet"
       href="https://unpkg.com/boxicons@latest/css/boxicons.min.css"
@@ -36,7 +37,7 @@
               <a href="#skills" class="nav_link active nav-link skills">Skills</a>
             </li>
             <li class="nav_items">
-              <a href="#work" class="nav_link active nav-link projects">Projects</a>
+              <a href="#projects" class="nav_link active nav-link projects">Projects</a>
             </li>
             <li class="nav_items">
               <a href="#contact" class="nav_link active nav-link contact">Contact</a>
@@ -59,7 +60,8 @@
             Hi, <br />I'm <span class="home_title-color">Ashwin </span
             ><br />Full Stack Web Dev
           </h1>
-          <a href="Ashwin_M_Resume.pdf" id="resume-link-2" class="button" class="nav-link resume"  download=""> Resume</a>
+          <ul><li id="resume-button-2"><a href="Ashwin_M_Resume.pdf" id="resume-link-2" class="button" class="nav-link resume"  download=""> Resume</a></li></ul>
+          
           
         </div>
 
@@ -91,7 +93,7 @@
         </div>
 
         <div class="home_img" data-aos="fade-down" data-aos-delay="500">
-        <img src="./WhatsApp_Image_2022-11-18_at_22.01.02-removebg.png" alt="">
+        <img src="./WhatsApp_Image_2022-11-18_at_22.01.02-removebg.png" class="home-img" alt="">
         </div>
       </section>
 
@@ -380,73 +382,74 @@
             >
               I'm Ashwin 
             </h2>
-            <p class="about_text" id="#user-detail-intro" data-aos="fade-down" data-aos-delay="450">
+            <p class="about_text" id="user-detail-intro" data-aos="fade-down" data-aos-delay="450">
             a full-stack developer specialized in Node.js, Express, MongoDB, HTML, CSS, JavaScript, and GitHub. I recently completed a bootcamp where I developed my skills and created several successful projects. I have a passion for building web applications and am skilled in creating efficient back-end systems and visually appealing user interfaces. I understand the importance of version control and collaboration and have experience using GitHub. I am eager to apply my skills to real-world projects and make a positive impact in the industry with my strong portfolio.
             </p>
           </div>
         </div>
       </section>
 
+      <!-- SKILLS -->
   <section class="skills section" id="skills">
         <h2 class="section-title" data-aos="fade-down">Skills</h2>
 
-        <div class="skills_container bd_grid">
+        <div class="skills_container bd_grid skills-card">
         
-          <div class="skills_data" data-aos="fade-left" data-aos-delay="350">
-            <img src="./HTML5.png" alt="">
+          <div class="skills_data skills-card-name" data-aos="fade-left" data-aos-delay="350">
+            <img src="./HTML5.png" class="skills-card-img" alt="">
             <!-- <p class="skills_name">HTML</p> -->
           </div>
 
-          <div class="skills_data" data-aos="fade-left" data-aos-delay="400">
-            <img src="./CSS3.png" alt="">
+          <div class="skills_data skills-card-name" data-aos="fade-left" data-aos-delay="400">
+            <img src="./CSS3.png"class="skills-card-img" alt="">
            <!--  <p class="skills_name">CSS</p> -->
           </div>
 
-          <div class="skills_data" data-aos="fade-left" data-aos-delay="450">
-            <img src="./javas.png"  alt="">
+          <div class="skills_data skills-card-name" data-aos="fade-left" data-aos-delay="450">
+            <img src="./javas.png" class="skills-card-img" alt="">
           <!--   <p class="skills_name">JavaScript</p> -->
           </div>
           </div>
-           <div class="skills_container bd_grid">
-          <div class="skills_data" data-aos="fade-left" data-aos-delay="500">
-            <img src="./NODEJS.png" width="150"  alt="">
+           <div class="skills_container bd_grid skills-card">
+          <div class="skills_data skills-card-name" data-aos="fade-left" data-aos-delay="500">
+            <img src="./NODEJS.png" width="150" class="skills-card-img" alt="">
           <!--   <p class="skills_name">JavaScript</p> -->
           </div>
-          <div class="skills_data" data-aos="fade-left" data-aos-delay="500">
-            <img src="./mongoDB-removebg-preview.png" width="150"  alt="">
+          <div class="skills_data skills-card-name" data-aos="fade-left" data-aos-delay="500">
+            <img src="./mongoDB-removebg-preview.png" width="150" class="skills-card-img" alt="">
           <!--   <p class="skills_name">JavaScript</p> -->
           </div>
-          <div class="skills_data" data-aos="fade-left" data-aos-delay="500">
-            <img src="./download-removebg-preview.png" width="150"  alt="">
+          <div class="skills_data skills-card-name" data-aos="fade-left" data-aos-delay="500">
+            <img src="./download-removebg-preview.png" width="150" class="skills-card-img" alt="">
           <!--   <p class="skills_name">JavaScript</p> -->
           </div>
           </div>
         
-        <div class="skills_container bd_grid">
-          <div class="skills_data" data-aos="fade-left" data-aos-delay="350">
-            <img src="./socketIO.png" width="150" alt="">
+        <div class="skills_container bd_grid skills-card">
+          <div class="skills_data skills-card-name" data-aos="fade-left" data-aos-delay="350">
+            <img src="./socketIO.png" width="150"class="skills-card-img" alt="">
             <!-- <p class="skills_name">HTML</p> -->
           </div>
-          <div class="skills_data" data-aos="fade-left" data-aos-delay="350">
-            <img src="./github.png" width="250" alt="">
+          <div class="skills_data skills-card-name" data-aos="fade-left" data-aos-delay="350">
+            <img src="./github.png" width="250"class="skills-card-img" alt="">
             <!-- <p class="skills_name">HTML</p> -->
           </div>
-          <div class="skills_data" data-aos="fade-left" data-aos-delay="350">
-            <img src="./bootstrap.png"  width="150" alt="">
+          <div class="skills_data skills-card-name" data-aos="fade-left" data-aos-delay="350">
+            <img src="./bootstrap.png"  width="150"class="skills-card-img" alt="">
             <!-- <p class="skills_name">HTML</p> -->
           </div>
           </div>
-          <div class="skills_container bd_grid">
-          <div class="skills_data" data-aos="fade-left" data-aos-delay="350">
-            <img src="./aWS.png" width="150" alt="">
+          <div class="skills_container bd_grid skills-card">
+          <div class="skills_data skills-card-name" data-aos="fade-left" data-aos-delay="350">
+            <img src="./aWS.png" width="150"class="skills-card-img" alt="">
             <!-- <p class="skills_name">HTML</p> -->
           </div>
-          <div class="skills_data" data-aos="fade-left" data-aos-delay="350">
-            <img src="./mongoose.png"  width="350"  alt="">
+          <div class="skills_data skills-card-name" data-aos="fade-left" data-aos-delay="350">
+            <img src="./mongoose.png"  width="350" class="skills-card-img" alt="">
             <!-- <p class="skills_name">HTML</p> -->
           </div>
-          <div class="skills_data" data-aos="fade-left" data-aos-delay="350">
-            <img src="./netlify.png"  width="250"  alt="">
+          <div class="skills_data skills-card-name" data-aos="fade-left" data-aos-delay="350">
+            <img src="./netlify.png"  width="250" class="skills-card-img" alt="">
             <!-- <p class="skills_name">HTML</p> -->
           </div>
         </div>
@@ -454,37 +457,37 @@
       </section>
 
       <!-- WORK SECTION -->
-  <section class="work section" id="work" id="projects">
-        <h2 class="section-title" data-aos="fade-down">Work</h2>
+  <section class="work section" id="projects">
+        <h2 class="section-title" data-aos="fade-down">projects</h2>
 
         <div
           class="work_container bd_grid"
           data-aos="fade-down"
           data-aos-delay="250"
         >
-        <div class="project-work"> 
+        <div class="project-work project-card"> 
         <img id="cover-image-1" class="work_img" src="./project3 screenshot.png" alt="Cover Image 1" />
     <div id="video-container-1" class="video-container"></div>
-    <p class="project-desc"> <b> Project Description:</b> Nimbu Road, a clone of LimeRoad, offers a fast and efficient online fashion shopping experience. Built with MERN (minus React), HTML, CSS, and Node.js in just 5 days. User-friendly platform with a wide range of products, personalized recommendations, and seamless payment options. Join us for a personalized and enjoyable shopping experience.</p>
-           <a href="https://github.com"><img src="./github.png" width="100px" class="github-logo" /></a>
-      <a href="https://example.com"><img src="https://t4.ftcdn.net/jpg/05/09/96/71/360_F_509967154_SxP5oGfK7imqJXezihVIbWq9k0i21gwE.jpg" width="100px"class="another-website-logo" /></a>
+    <p class="project-desc project-title"> <b class="project-description"> Project Description:</b> Nimbu Road, a clone of LimeRoad, offers a fast and efficient online fashion shopping experience. <br> <b class="project-tech-stack"> Tech-stack: </b>Built with MERN (minus React), HTML, CSS, and Node.js in just 5 days. User-friendly platform with a wide range of products, personalized recommendations, and seamless payment options. Join us for a personalized and enjoyable shopping experience.</p>
+           <a href="https://github.com"><img src="./github.png" width="100px" class="github-logo project-github-link" /></a>
+      <a href="https://example.com"><img src="https://t4.ftcdn.net/jpg/05/09/96/71/360_F_509967154_SxP5oGfK7imqJXezihVIbWq9k0i21gwE.jpg" width="100px"class="another-website-logo project-deployed-link" /></a>
     </div>
-       <div class="project-work"> 
+       <div class="project-work project-card"> 
       <img id="cover-image-2"  class="work_img" src="./project2 screenshot.png" alt="Cover Image 2" />
     <div id="video-container-2" class="video-container">
     </div>
-    <p class="project-desc"> <b> Project Description:</b>  Alpha Lyst, our 5-day project, is a clone of the popular fashion website, Lyst. Utilizing HTML, CSS, and JavaScript, we've created a fast and efficient platform offering a wide range of products, personalized recommendations, and easy payment options. Experience the latest in fashion and shop with ease on Alpha Lyst.</p>
-     <a href="https://github.com"><img src="./github.png" width="100px" class="github-logo" /></a>
-<a href="https://example.com"><img src="https://t4.ftcdn.net/jpg/05/09/96/71/360_F_509967154_SxP5oGfK7imqJXezihVIbWq9k0i21gwE.jpg" width="100px"class="another-website-logo" /></a>
+    <p class="project-desc project-title"> <b class="project-description"> Project Description:</b>  Alpha Lyst, our 5-day project, is a clone of the popular fashion website, Lyst. <br> <b class="project-tech-stack"> Tech-stack: </b> Utilizing HTML, CSS, and JavaScript, we've created a fast and efficient platform offering a wide range of products, personalized recommendations, and easy payment options. Experience the latest in fashion and shop with ease on Alpha Lyst.</p>
+     <a href="https://github.com"><img src="./github.png" width="100px" class="github-logo project-github-link" /></a>
+<a href="https://example.com"><img src="https://t4.ftcdn.net/jpg/05/09/96/71/360_F_509967154_SxP5oGfK7imqJXezihVIbWq9k0i21gwE.jpg" width="100px"class="another-website-logo project-deployed-link" /></a>
   </div>
-       <div class="project-work"> 
+       <div class="project-work project-card"> 
       <img id="cover-image-3"  class="work_img" src="./project1 screenshot.png" alt="Cover Image 3" />
       
     <div id="video-container-3" class="video-container">
     </div>
-    <p class="project-desc"> <b> Project Description:</b> HFC, our 5-day project, is a clone of the popular fast food chain, KFC. Utilizing HTML, CSS, and JavaScript, we've created a fast and efficient platform offering a wide range of delicious menu items, convenient ordering options, and easy payment options. Enjoy the taste of KFC favorites with the ease of online ordering on HFC.</p>
-    <a href="https://github.com"><img src="./github.png" width="100px" class="github-logo" /></a>
-<a href="https://example.com"><img src="https://t4.ftcdn.net/jpg/05/09/96/71/360_F_509967154_SxP5oGfK7imqJXezihVIbWq9k0i21gwE.jpg" width="100px"class="another-website-logo" /></a>
+    <p class="project-desc project-title"> <b class="project-description"> Project Description:</b> HFC, our 5-day project, is a clone of the popular fast food chain, KFC. <br> <b class="project-tech-stack"> Tech-stack: </b> Utilizing HTML, CSS, and JavaScript, we've created a fast and efficient platform offering a wide range of delicious menu items, convenient ordering options, and easy payment options. Enjoy the taste of KFC favorites with the ease of online ordering on HFC.</p>
+    <a href="https://github.com"><img src="./github.png" width="100px" class="github-logo project-github-link" /></a>
+<a href="https://example.com"><img src="https://t4.ftcdn.net/jpg/05/09/96/71/360_F_509967154_SxP5oGfK7imqJXezihVIbWq9k0i21gwE.jpg" width="100px"class="another-website-logo project-deployed-link" /></a>
 
   </div>
 </div>
@@ -520,6 +523,7 @@
 
       <section class="contact section" id="contact">
         <h2 class="section-title" data-aos="fade-down">Contact</h2>
+        
 
         <div class="contact_container bd_grid">
           <form action="https://formsubmit.co/ashwinraj786.as@gmail.com" method="POST" class="contact_form">
@@ -557,7 +561,19 @@
               data-aos-delay="450"
             />
           </form>
+          <div class="contact_links" data-aos="fade-up" data-aos-delay="750">
+  <ul class="contact_links" data-aos="fade-up" data-aos-delay="750">
+    <li id="contact-email"><i class="fas fa-envelope"></i> ashwinraj786.as@gmail.com</li>
+    <li  id="contact-linkedin"><a href="www.linkedin.com/in/ashwin-385a86166"><i class="fab fa-linkedin"></i> LinkedIn</a></li>
+    <li id="contact-github"><a href="https://github.com/your-github-profile/"><i class="fab fa-github"></i> Github</a></li>
+    <li  id="contact-phone"><i class="fas fa-phone"></i> +91 8610-238-253</li>
+  </ul>
+  </div>
+  <!-- www.linkedin.com/in/ashwin-385a86166 
+  ashwinraj786.as@gmail.com-->
+
         </div>
+        
       </section>
 
 
@@ -598,8 +614,8 @@
           ></a>
         </div>
 
-        <p data-aos="fade-down" data-aos-delay="650">
-          &#169; Made By Ashwin with <i class="fa-solid fa-heart-pulse"></i>
+        <p >
+          &#169; Made By <i class="fa-solid fa-heart-pulse"></i> Ashwin 
         </p>
       </footer>
     </main>
