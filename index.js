@@ -36,9 +36,10 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
       // Create the player object once the API code has loaded.
       var players = [];
       function onYouTubeIframeAPIReady() {
-        createPlayer('cover-image-1', 'video-container-1', 'Hn3w0Zh0vQc');
-        createPlayer('cover-image-2', 'video-container-2', 'tQqq4Id6vM8');
-        createPlayer('cover-image-3', 'video-container-3', 'tQqq4Id6vM8');
+        createPlayer('cover-image-1', 'video-container-1', 'L3q28btiX6I');
+        createPlayer('cover-image-2', 'video-container-2', 'L3q28btiX6I');
+        createPlayer('cover-image-3', 'video-container-3', '-kC6ucD3MFo');
+        createPlayer('cover-image-4', 'video-container-4', '-kC6ucD3MFo');
         
         // Add calls to createPlayer() for each additional video as needed
       }
@@ -113,3 +114,17 @@ document.getElementById("resume-link-2").onclick = ()=>{
   global_stats: false,
   tooltips: true,
 });
+
+  var typed = new Typed(".typing", {
+        strings: ["Full Stack Web Developer","Programming Enthusiast","Code Wizard 😉"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
+
+    var typed = new Typed(".typing-2", {
+        strings: ["Full Stack Web Developer","Programming Enthusiast","Code Wizard 😉"],
+        typeSpeed: 100,
+        backSpeed: 60,
+        loop: true
+    });
