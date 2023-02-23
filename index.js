@@ -116,15 +116,15 @@ document.getElementById("resume-link-2").onclick = ()=>{
 });
 
   var typed = new Typed(".typing", {
-        strings: ["Full Stack Web Developer","Programming Enthusiast"],
+        strings: ["Full Stack Web Developer","Programming Enthusiast","Code Wizard 😉"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
     });
-
+/* 
     var typed = new Typed(".typing-2", {
-        strings: ["Full Stack Web Developer","Programming Enthusiast"],
+        strings: ["Full Stack Web Developer","Programming Enthusiast","Code Wizard 😉"],
         typeSpeed: 100,
         backSpeed: 60,
         loop: true
-    });
+    }); */
