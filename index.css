@@ -179,7 +179,8 @@ img {
   background-color: var(--first-color);
 }
 .main{
-  margin-top: 50;
+  margin-top: 50px;
+  /* margin-bottom: 50; */
 }
 .show {
   right: 0;
