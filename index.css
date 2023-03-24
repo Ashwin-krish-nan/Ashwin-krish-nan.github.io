@@ -178,7 +178,9 @@ img {
   top: 2rem;
   background-color: var(--first-color);
 }
-.main{}
+.main{
+  margin-top: 20px;
+}
 .show {
   right: 0;
 }
