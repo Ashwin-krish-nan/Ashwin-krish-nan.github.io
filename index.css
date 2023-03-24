@@ -179,7 +179,7 @@ img {
   background-color: var(--first-color);
 }
 .main{
-  margin-top: 100px;
+  margin-top: -15;
 }
 .show {
   right: 0;
