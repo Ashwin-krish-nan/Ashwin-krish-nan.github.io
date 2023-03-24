@@ -179,14 +179,14 @@ img {
   background-color: var(--first-color);
 }
 .main{
-  margin-top: 50px;
+  margin-top: 20px;
 }
 .show {
   right: 0;
 }
 
 .home {
-  height: calc(100vh - 3rem);
+  height: calc(100vh - 3rem);margin-top: 20px;
   row-gap: 1rem;
 }
 
@@ -274,7 +274,7 @@ img {
 
 .about_container {
   row-gap: 2rem;
-  text-align: center;
+  text-align: center;margin-top: 20px;
 }
 
 .about_subtitle {
@@ -296,7 +296,7 @@ img {
   justify-content: space-between;
   align-items: center;
   row-gap: 2rem;
-  text-align: center;
+  text-align: center;margin-top: 20px;
   /* border: 1px solid black; */
 }
 
@@ -327,7 +327,7 @@ img {
 .work_container {
   row-gap: 2rem;/* border: 1px solid red;
      */
-    grid-template-columns: repeat(1, 1fr);
+    grid-template-columns: repeat(1, 1fr);margin-top: 20px;
 }
 .project-work{
 /*   border: 1px solid blue; */
