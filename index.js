@@ -54,7 +54,8 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
           events: {
             'onReady': onPlayerReady,
             'onStateChange': onPlayerStateChange
-          }
+          },
+    origin: 'https://www.youtube.com'
         });
         players.push(player);
           // Show the video when the user clicks on the cover image.
