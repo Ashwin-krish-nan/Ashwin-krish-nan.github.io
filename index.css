@@ -273,9 +273,7 @@ img {
 }
 
 /* ABOUT SECTION */
-#about{
-margin-top: 120px;
-}
+
 .about_container {
   row-gap: 2rem;
   text-align: center;
