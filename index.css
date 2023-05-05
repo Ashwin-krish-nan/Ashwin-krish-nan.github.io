@@ -325,11 +325,13 @@ img {
 
 .work {
   text-align: center;
+  
 }
 
 .work_container {
-  row-gap: 2rem;/* border: 1px solid red;
-     */
+  row-gap: 2rem;/* border: 1px solid red; */
+  
+    
     grid-template-columns: repeat(1, 1fr);
 }
 .project-work{

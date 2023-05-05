@@ -38,9 +38,10 @@ navLink.forEach(n => n.addEventListener('click', linkAction))
       var players = [];
       function onYouTubeIframeAPIReady() {
         createPlayer('cover-image-1', 'video-container-1', 'L3q28btiX6I');
-        createPlayer('cover-image-2', 'video-container-2', 'L3q28btiX6I');
-        createPlayer('cover-image-3', 'video-container-3', '-kC6ucD3MFo');
+        createPlayer('cover-image-2', 'video-container-2', '9O0f4DNhl5g');
+        createPlayer('cover-image-3', 'video-container-3', 'Lkp6sAE7Uo8');
         createPlayer('cover-image-4', 'video-container-4', '-kC6ucD3MFo');
+        createPlayer('cover-image-5', 'video-container-5', '-kC6ucD3MFo');
         
         // Add calls to createPlayer() for each additional video as needed
       }
