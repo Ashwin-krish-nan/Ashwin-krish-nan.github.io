@@ -260,7 +260,7 @@ img {
   text-align: center;
 }
 
-.section-title::after {
+/* .section-title::after {
   position: absolute;
   content: "";
   width: 64px;
@@ -270,7 +270,7 @@ img {
   margin: auto;
   top: 2rem;
   background-color: var(--first-color);
-}
+} */
 
 /* ABOUT SECTION */
 
